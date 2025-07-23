@@ -17,7 +17,7 @@
 body p{
     color: rgba(0, 0, 0, 0.5);
 }
-.about span{
+span{
     color: #E95A08;
 }
 h1{
@@ -55,9 +55,43 @@ nav a{
 /* about style */
 .about{
     display: flex;
-    margin: 0 150px;
+    margin: 0 150px 120px;
 }
 .about-description{
     width: 570px;
+}
+
+/* plants price */
+.plants-price{
+    margin: 0 150px 210px;
+     text-align: center;
+}
+.plant-title{
+    text-align: center;
+    margin: 0 270px 30px;
+}
+.plant-title h2{
+    font-size: 50px;
+}
+.plants{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.title, .price{
+    color: #111111;
+    font-size: 22px;
+    font-weight: 500;
+}
+.price{
+    font-weight: 700;
+}
+.plants button{
+    background-color: #E95A08;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 20px 80px;
+    border: none;
 }
 
