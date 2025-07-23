@@ -121,7 +121,31 @@ nav a{
 }
 /* latest-deals */
 .latest-deals{
+    margin: 0 150px 120px;
     display: none;
+}
+.latest-deal-plants{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 300px);
+   
+   
+}
+.card-1{
+    background-image: url(images/deal-bloom.png);
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(images/deal-zabo.png);
+     background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url(images/deal-ana.png);
+     background-repeat: no-repeat;
+}
+#box-3{
+    grid-row: span 2;
 }
 
 /* join style */
@@ -156,5 +180,46 @@ nav a{
     background-color: #E95A08;
    
 }
+
+/* footer style */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 160px;
+ 
+}
+.footer-description{
+    width: 360px;
+    font-size: 22px;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: gray;
+}
+.social img{
+    margin-left: 30px;
+   
+
+}
+
+
+/* ========================================================================================== */
+
+/* navbar section */
+@media screen and (max-width: 576px) {
+    .common{
+        display: none;
+    }
+    nav{
+        margin: 0 0 120px;
+    }
+    
+}
+
 
 
