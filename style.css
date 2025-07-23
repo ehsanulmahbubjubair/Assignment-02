@@ -17,6 +17,14 @@
 body p{
     color: rgba(0, 0, 0, 0.5);
 }
+.about span{
+    color: #E95A08;
+}
+h1{
+    color: #000000;
+    font-size: 65px;
+    font-weight: bold;
+}
 
 /* nav style */
 nav{
@@ -43,3 +51,13 @@ nav a{
     color: #8987A1;
     font-weight: 400;
 }
+
+/* about style */
+.about{
+    display: flex;
+    margin: 0 150px;
+}
+.about-description{
+    width: 570px;
+}
+
