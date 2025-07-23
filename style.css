@@ -212,12 +212,33 @@ nav a{
 
 /* navbar section */
 @media screen and (max-width: 576px) {
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
     .common{
         display: none;
     }
     nav{
         margin: 0 0 120px;
     }
+    /* about section */
+    .about{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        
+        margin: 0 0 120px;
+        }
+        .about-description{
+            width: 400px;
+            margin: 0 20px;
+        }
+        .about img{
+            width: 393px;
+            margin-left: 80px;
+        }
     
 }
 
