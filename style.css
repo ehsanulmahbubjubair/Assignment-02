@@ -95,3 +95,28 @@ nav a{
     border: none;
 }
 
+/* seller style */
+.seller{
+    display: flex;
+    margin: 0 150px 133px;
+    justify-content: space-between;
+    position: relative;
+}
+.seller img{
+    width: 540px;
+}
+.seller h2{
+    font-size: 50px;
+}
+.seller-description{
+    width: 540px;
+}
+.trusted-seller{
+   position: absolute;
+   left: 400px;
+   bottom: 438px;
+}
+.trusted-seller img{
+    width: 286px;
+}
+
