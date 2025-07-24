@@ -239,6 +239,33 @@ nav a{
             width: 393px;
             margin-left: 80px;
         }
+
+        /* plants section */
+        .plants-price{
+         margin: 0 0 210px;
+        }
+        .plant-title{
+        text-align: center;
+        margin: 0 0 30px;
+        }
+        .plants img {
+            width: 200px;
+        }
+        .plants{
+         grid-template-columns: repeat(2, 1fr);
+        }
+        .plant-title h2{
+         font-size: 24px;
+        }
+        .plant-title p{
+            font-size: 14px;
+        }
+        .title, .price{
+         font-size: 16px;
+        }
+        .plants button{
+        padding: 10px 50px;
+        }
     
 }
 
