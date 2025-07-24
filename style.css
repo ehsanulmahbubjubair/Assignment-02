@@ -203,8 +203,6 @@ nav a{
 }
 .social img{
     margin-left: 30px;
-   
-
 }
 
 
@@ -266,6 +264,60 @@ nav a{
         .plants button{
         padding: 10px 50px;
         }
+        /* seller section  */
+        .seller{
+            flex-direction: column;
+            margin: 0 0 133px;
+        }
+        .seller img{
+        width: 400px;
+        }
+        .seller h2{
+        font-size: 24px;
+        }
+        .seller-description{
+         width: 400px;
+        }
+        .trusted-seller{
+        display: none;
+        }
+        /* join section */
+        .join{
+        height: 276px;
+        }
+        .join-item h2{
+        font-size: 24px;
+        }
+        .join-item input{
+        padding: 20px;
+         font-size: 14px;
+         width: 218px;
+        }
+        .join-item button{
+         padding: 19px 30px;
+        font-size: 16px;
+        }
+        /* footer section */
+        .footer{
+        flex-direction: column;
+         margin: 30px 20px;
+        }
+        .footer-description{
+        font-size: 16px;
+        }
+        .links{
+        grid-template-columns: repeat(1, 1fr);
+        }
+        .links a{
+        font-size: 14px;
+        }
+        .social img{
+        margin: 20px 15px;
+        }
+
+}
+
+
     
 }
 
